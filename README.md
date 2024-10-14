@@ -1,16 +1,60 @@
-# location_map_app
+# Location Map App
 
-A new Flutter project.
+A Flutter application that fetches and displays the user's current location using the device's GPS. The app uses the provider package for state management.
 
-## Getting Started
+## Table of Contents
 
-This project is a starting point for a Flutter application.
+- Prerequisites
+- Setup
+- Running the App
+- Dependencies
+- License
 
-A few resources to get you started if this is your first Flutter project:
+## Prerequisites
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Before you begin, ensure you have met the following requirements:
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- Install Flutter on your machine.
+- Ensure you have a compatible IDE (e.g., Visual Studio Code or Android Studio).
+- Enable Developer Mode on your Windows machine to run desktop applications.
+- Ensure your device has location services enabled.
+
+## Setup
+
+1. Clone the repository:
+   git clone [https://github.com/yourusername/location_map_app.git](https://github.com/RohitPatil00/Location-Based-Flutter-App/tree/main)
+   cd location_map_app
+
+2. Install dependencies:
+   Make sure you're in the project directory, then run:
+   flutter pub get
+
+3. Update your `dart.flutterSdkPath`:
+   Ensure that the `dart.flutterSdkPath` in your VS Code settings points to your Flutter SDK path.
+
+## Running the App
+
+To run the app, execute the following command in your terminal:
+flutter run
+
+When prompted, select the device you want to run the app on (Windows, Chrome, or Edge).
+
+## Dependencies
+
+This app uses the following dependencies:
+
+- flutter
+- provider
+- geolocator
+- geocoding
+- flutter_map
+
+You can find the latest versions of these packages in the `pubspec.yaml` file.
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+## Acknowledgments
+
+Thanks to the Flutter community for their amazing resources and support.
