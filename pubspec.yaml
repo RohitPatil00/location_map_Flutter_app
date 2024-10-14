@@ -1,0 +1,21 @@
+name: location_map_app
+description: A new Flutter project.
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.5.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_map: ^7.0.2            # Update to the latest version
+  geocoding: ^3.0.0               # Update to the latest version
+  geolocator: ^13.0.1             # Update to the latest version
+  provider: ^6.1.2                # Keep this or update if a newer version is available
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
